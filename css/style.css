@@ -59,13 +59,45 @@ nav ul li {
     width: 400px;
     margin: 25px;
 }
-.about p {   
-
-}
 
 /* Work Section */
+.workproject {
+    justify-content: center;
+    background-color: white;
+    border: 10px solid #212D40;
+    margin: 50px;
+    display: flex;
+}
+.workproject h1 {
+    text-align: center;
+    font-size: 40px;
+    flex-wrap: wrap;
+}
+
+.project {
+    border-style: solid;
+    border-color: #212D40;
+    border-width: 5px;
+    padding: 10px;
+    width: 25%;
+    margin: 10px;
+}
+
+.project header {
+    text-align: center;
+
+}
+.project img {
+    width: 100%;
+}
 
 /* Contact Section */
+.contact {
+    justify-content: center;
+    background-color: white;
+    border: 10px solid #212D40;
+    margin: 50px;
+}
 .contact h1 {
     text-align: center;
     font-size: 40px;
