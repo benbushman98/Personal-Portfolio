@@ -40,10 +40,6 @@ nav ul li {
 }
 
 /* About me section */
-#about {
-    
-} 
-
 .aboutbox {
     justify-content: center;
     background-color: white;
@@ -86,52 +82,68 @@ nav ul li {
 }
 
 /* Work Section */
-.workproject {
+main {
     justify-content: center;
     background-color: white;
     border: 10px solid #212D40;
     margin: 50px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    
-
 }
-.workproject h1 {
+
+#work {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main h1 {
     text-align: center;
     font-size: 40px;
-    flex-wrap: wrap;
     width: 100%;
 }
 
-.workproject div {
+ main section {
+    width: 25%;
+    flex: 300px;
+}
+
+.firstproject {
+    flex: 1 1 1000px;
+}
+.afterprojects {
+    flex: 300px;
+}
+.project {
     border-style: solid;
     border-color: #212D40;
     border-width: 5px;
+    margin: 10px;
+    padding: 10px;
 }
 
 .project header {
     text-align: center
 }
-
-.project img {
-    width: 100%;
-    height: auto
-    display: flex;
-    
+main div a {
+    text-decoration: none;
+    font-size: 25px;
 }
-
-
+main div img {
+    width: 300px;
+    width: 100%;
+    height: 300px;
+}
 /* Contact Section */
 .contact {
     justify-content: center;
     background-color: white;
     border: 10px solid #212D40;
     margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
 }
 .contact h1 {
     text-align: center;
     font-size: 40px;
+    width: 100%;
 }
 .contact ul {
     list-style: none;
