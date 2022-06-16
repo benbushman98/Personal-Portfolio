@@ -4,7 +4,7 @@ This webpage has been designed to show the functionality of the Horiseon website
 <br></br>
 
 # Screenshot
-![Screenshot of what the webpage looks like](/.img/screenshot.png)
+![Screenshot of what the webpage looks like](./img/screenshot.png)
 
 <br></br>
 
