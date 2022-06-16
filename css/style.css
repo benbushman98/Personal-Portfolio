@@ -9,9 +9,17 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
+main {
+    justify-content: center;
+    background-color: white;
+    border: 10px solid #212D40;
+    margin: 50px;
+}
+
 .container{
     width: 100%;
     background-color: #212D40;
+    ;
 }
 .navbar {
     display: flex;
@@ -39,6 +47,12 @@ nav ul li {
     justify-content: right;
 }
 
+@media screen and (max-width:730px) {
+    nav ul li {
+        display: inline;
+
+    }
+}
 /* About me section */
 .aboutbox {
     justify-content: center;
@@ -82,13 +96,6 @@ nav ul li {
 }
 
 /* Work Section */
-main {
-    justify-content: center;
-    background-color: white;
-    border: 10px solid #212D40;
-    margin: 50px;
-}
-
 #work {
     display: flex;
     flex-wrap: wrap;
@@ -120,27 +127,29 @@ main h1 {
 }
 
 .project header {
-    text-align: center
+    display: flex;
+    justify-content: center;
 }
+
 main div a {
     text-decoration: none;
     font-size: 25px;
 }
+
 main div img {
     width: 300px;
     width: 100%;
     height: 300px;
 }
+
 /* Contact Section */
-.contact {
-    justify-content: center;
-    background-color: white;
-    border: 10px solid #212D40;
-    margin: 50px;
+#contact {
     display: flex;
     flex-wrap: wrap;
+    padding: 10px;
 }
-.contact h1 {
+
+main h1 {
     text-align: center;
     font-size: 40px;
     width: 100%;
@@ -148,16 +157,21 @@ main div img {
 .contact ul {
     list-style: none;
     text-align: center;
+    padding-inline-start: 40px;
+    padding-inline-end: 40px;
+    margin: 5px;
+    flex: 1;
 }
-.contact ul li {
-    text-decoration: none;
+
+.contact ul li  {
     display: inline;
-    padding-right: 20px;
-    padding-left: 20px;
+    text-decoration: none;
     font-size: 30px;
+    padding: 10px;
 }
-@media screen and (max-width: 500px) {
-    .contact ul li {
-        font-size: 5px;
-    }
+.space {
+    display: inline;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px;
 }
