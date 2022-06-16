@@ -4,8 +4,9 @@ This webpage has been designed to show the functionality of the Horiseon website
 <br></br>
 
 # Screenshot
-![Screenshot of what the webpage looks like](./Assets/Screenshot.png)
+![Screenshot of what the webpage looks like](./img/Screenshot.png)
 
 <br></br>
 
 # Website URL
+https://benbushman98.github.io/Personal-Portfolio/
