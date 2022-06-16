@@ -57,7 +57,6 @@ nav ul li {
 #about {
     display: flex;
     flex-wrap: wrap;
-    
 }
 
 #about h1 {
@@ -67,16 +66,35 @@ nav ul li {
     
 }
 #ben {
-    width: 400px;
+    display: block;
     margin-bottom: 40px;
     margin-left: 20px;
     margin-right: 20px;
-    float:left
+    width: 100%;
+    width: 500px;
+    float:left;
 }
 .aboutbox div {
     font-size: 25px;
 }
-
+@media screen and (max-width:715px) {
+    #ben {
+        width: 100%;
+        width: 300px;
+    }
+}
+@media screen and (max-width:500px) {
+    #ben {
+        width: 100%;
+        width: 200px;
+    }
+}
+@media screen and (max-width:400px) {
+    #ben {
+        width: 100%;
+        width: 100px;
+    }
+}
 /* Work Section */
 #work {
     display: flex;
