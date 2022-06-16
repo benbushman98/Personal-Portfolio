@@ -77,22 +77,36 @@ nav ul li {
 .aboutbox div {
     font-size: 25px;
 }
-@media screen and (max-width:715px) {
+@media screen and (max-width:1000px) {
     #ben {
+        float: none;
         width: 100%;
-        width: 300px;
+        width: 500px;
+        margin: auto;
+    }
+    #about {
+        flex-direction: row;
+    }
+    .aboutbox div {
+        display: block;
     }
 }
-@media screen and (max-width:500px) {
+@media screen and (max-width:800px) {
     #ben {
         width: 100%;
-        width: 200px;
+        width: 400px;
     }
 }
-@media screen and (max-width:400px) {
+@media screen and (max-width:600px) {
     #ben {
         width: 100%;
-        width: 100px;
+        width: 250px;
+    }
+}
+@media screen and (max-width:450px) {
+    #ben {
+        width: 100%;
+        width: 150px;
     }
 }
 /* Work Section */
