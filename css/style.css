@@ -156,7 +156,7 @@ main div img {
     padding-left: 20px;
     font-size: 30px;
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 400px) {
     .contact ul {
         font-size: 30px;
     }
