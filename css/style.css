@@ -54,14 +54,12 @@ nav ul li {
     }
 }
 /* About me section */
-.aboutbox {
-    justify-content: center;
-    background-color: white;
-    border: 10px solid #212D40;
-    margin:0 auto;
-    height: 600px;
-    width: 1500px;
+#about {
+    display: flex;
+    flex-wrap: wrap;
+    
 }
+
 #about h1 {
     width: 100%;
     font-size: 40px;
@@ -77,22 +75,6 @@ nav ul li {
 }
 .aboutbox div {
     font-size: 25px;
-}
-
-@media screen and (max-width:1550px) {
-    .aboutbox {
-        width: 50%;
-    }
-    #about h1 {
-        width: 50%;
-    }
-    #ben {
-        width: 25%;
-    }
-    .aboutbox div {
-        width: 50%;
-        font-size: 10px;
-    }
 }
 
 /* Work Section */
