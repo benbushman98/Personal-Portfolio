@@ -1,5 +1,5 @@
-# Personal-Portfolio
-This webpage has been designed to show the functionality of the Horiseon website. You can click on any button in the navigation bar to jump down the page to the corosponding description. Take a look and read about Horiseon and what they offer.
+# Description
+Take a look at my personal portfolio for some information about my personal life as well as my work projects. In this repository, you will find the my code used to create and style this website. From flexbox and mediaquaries to semantic elements, you are sure to find my understanding of HTML and CSS.
 
 <br></br>
 
